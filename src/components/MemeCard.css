@@ -1,0 +1,23 @@
+.meme-card {
+    text-align: center;
+    border: 1px solid rgb(23, 117, 239);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(23, 117, 239);
+  }
+  
+  .meme-card img {
+    max-width: auto;
+    height: auto;
+  }
+  
+  .meme-card p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .rounded-image {
+    border-radius: 15px; /* Adjust this value to curve the edges */
+    width: 300px;        /* Optional: Set width */
+    height: auto;        /* Optional: Maintain aspect ratio */
+  }

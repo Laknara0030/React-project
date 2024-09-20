@@ -1,0 +1,29 @@
+.header {
+    text-align: left;
+    padding: 50px;
+    background-color: rgb(23, 117, 239);
+    color: #ffe066;
+  }
+  
+  .header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between the columns */
+  }
+  
+  .header {
+    flex: 1; /* This makes the header div take up one column */
+  }
+  
+  .memes-grid-container {
+    flex: 1; /* This makes the MemesGrid div take up the other column */
+    background-color: rgb(23, 117, 239);
+  }
